@@ -21,7 +21,7 @@ const BlogsList = ({blogs}) => {
                 {blogs?.map((item) => (
                   <div className="item mb-80" key={item._id}>
                     <div className="img">
-                      <Link href="/blog-details">
+                      <Link href={`/blog-details/${item?._id}`}>
                         <a>
                           <img
                             src={urlFor(item?.coverImage)}
