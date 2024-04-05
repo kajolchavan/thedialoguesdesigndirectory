@@ -18,7 +18,7 @@ const Home1 = ({homeContent,portfolios,blogs}) => {
   React.useEffect(() => {
     document.querySelector("body").classList.add("homepage");
   }, []);
-  console.log(homeContent)
+  
   
   return (
     <LightLayout >

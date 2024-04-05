@@ -4,6 +4,7 @@ import Link from "next/link";
 import thumparallaxUp from "../../common/thumparallaxUp";
 
 import PortableText from "react-portable-text";
+import { urlFor } from "../../lib/client";
 
 const PostDetails = ({blogDetails,blogs}) => {
   React.useEffect(() => {
