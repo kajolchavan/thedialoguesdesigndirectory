@@ -19,7 +19,7 @@ const Home1 = () => {
     <LightLayout>
       <IntroWithVertical />
       <Services2 />
-      <AboutUs2 />
+      
       <Portfolio2 />
       <Process />
       <Team1 />

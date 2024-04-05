@@ -13,7 +13,7 @@ const ProjectDetails = () => {
   }, []);
   return (
     <MainLayout>
-      <PageHeader
+      {/* <PageHeader
         title="Luxury Furniture"
         fullPath={[
           { id: 1, name: "home", url: "/" },
@@ -21,7 +21,7 @@ const ProjectDetails = () => {
           { id: 3, name: "project details", url: "/project-details" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
-      />
+      /> */}
       <ProjectIntro />
       <section className="projdtal">
         <div className="justified-gallery">
