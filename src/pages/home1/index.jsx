@@ -22,7 +22,7 @@ const Home1 = ({homeContent,portfolios,blogs}) => {
   
   return (
     <LightLayout >
-      <IntroVideo homeContent={homeContent} />
+      {/* <IntroVideo homeContent={homeContent} /> */}
       {/* <AboutUs2 /> */}
       {/* <Services1 /> */}
       <Portfolio1 portfolios={portfolios}  />
