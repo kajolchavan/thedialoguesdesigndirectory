@@ -23,7 +23,7 @@ const Portfolio1 = ({portfolios}) => {
             <div className="section-head text-center">
               <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-8 col-sm-10">
-                  <h6 style={{color:"#ffe600"}} className="wow fadeInDown mediumSubTitle" data-wow-delay=".3s">
+                  <h6  className="wow fadeInDown mediumSubTitle" data-wow-delay=".3s">
                   Here is everything you need to know
                   </h6>
                   <h4 className="boldSubTitle wow flipInX" data-wow-delay=".5s">

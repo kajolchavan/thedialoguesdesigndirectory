@@ -717,7 +717,7 @@ a:hover, span:hover {
   transition-delay: 1s;
 }
 .loading-text {
-  font-weight: 300;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 10px;
   position: absolute;
@@ -727,7 +727,7 @@ a:hover, span:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #ffe600;
-  font-family: 'Teko', sans-serif;
+  font-family: MontserratBold;
   z-index: 9999;
 }
 .loading-text.isdone {
@@ -995,12 +995,13 @@ body {
   margin: 0 auto 30px;
 }
 .section-head h4 {
+  color: #ffe600;
   font-weight: 500;
   font-size: 28px;
   letter-spacing: 2px;
 }
 .section-head h6 {
-  color: #ffe600;
+  color: black;
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
