@@ -1,0 +1,6 @@
+{
+  "lightLogo": "/assets/img/logo-dark.png",
+  "darkLogo": "/assets/img/logo-dark.png",
+  "mapIframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15090.87871735182!2d72.8240642!3d18.9879835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce61d89ac35d%3A0xbfe9b437c07afe53!2sDialogues!5e0!3m2!1sen!2sin!4v1711904938385!5m2!1sen!2sin",
+  "showLoading": true
+}
