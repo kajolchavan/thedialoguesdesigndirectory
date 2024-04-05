@@ -31,7 +31,43 @@ const ContactForm = () => {
                   required="required"
                 />
               </div>
-
+              <div className="form-group">
+                <input
+                  id="form_subject"
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required="required"
+                />
+              </div>
+              <div className="form-group">
+                <select
+                  id="form_hear"
+                  placeholder="How did you hear about us?"
+                  name="subject"
+                 
+                  required="required"
+                >
+                <option value="" defaultChecked >How did you hear about us?</option>
+                <option>Search Engine</option>
+                <option>Social Media</option>
+                <option>Referral</option>
+                <option>Other</option>
+                 </select>
+              </div>
+              <div className="form-group">
+                <select
+                  id="form_hear"
+                  placeholder="How did you hear about us?"
+                  name="subject"
+                 
+                  required="required"
+                >
+                <option value="" defaultChecked >Are you a current student?</option>
+                <option>Yes</option>
+                <option>No</option>
+                 </select>
+              </div>
               <div className="form-group">
                 <textarea
                   id="form_message"
