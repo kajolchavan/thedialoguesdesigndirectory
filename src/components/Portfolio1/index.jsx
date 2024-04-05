@@ -23,11 +23,11 @@ const Portfolio1 = ({portfolios}) => {
             <div className="section-head text-center">
               <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-8 col-sm-10">
-                  <h6 style={{color:"#000080"}} className="wow fadeInDown mediumSubTitle" data-wow-delay=".3s">
+                  <h6 style={{color:"#ffe600"}} className="wow fadeInDown mediumSubTitle" data-wow-delay=".3s">
                   Here is everything you need to know
                   </h6>
                   <h4 className="boldSubTitle wow flipInX" data-wow-delay=".5s">
-                  Architecture, Furnishings & Decor
+                  Architecture & Decor
                   </h4>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const Portfolio1 = ({portfolios}) => {
             <div className='row gallery gap-4 ' >
       {portfolios?.map((item,key)=>(
         
-        <div key={key} className="col-lg-4 wow fadeInUp col-md-4  my-4 items theaters">
+        <div key={key} className="col-lg-4 wow fadeInUp col-md-4 portfolioItem  my-4 items theaters">
         <a   href={item?.videoLink}>
               <div className="item youtubeItem">
                 <div className="img youtubeImage">

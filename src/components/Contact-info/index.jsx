@@ -10,7 +10,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
                 <h6 className="custom-font mediumSubTitle">Call Us</h6>
-                <p className="mediumSubTitle">+91  819555466</p>
+                <p className="mediumSubTitle">+91 9819555466</p>
              
               </div>
             </div>

@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-
+import { urlFor } from "../../lib/client";
 const PageHeader = ({ title, fullPath, image }) => {
   const router = useRouter();
   return (
     <header
       className="pages-header bg-img valign parallaxie"
       style={{
-        backgroundImage: `url(${!image ? "/assets/img/pg1.jpg" : image})`,
+        backgroundImage: `url(${!image ? "/assets/img/pg1.jpg" : urlFor(image)})`,
       }}
       data-overlay-dark="5"
     >

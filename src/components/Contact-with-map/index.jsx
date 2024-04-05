@@ -9,8 +9,8 @@ const ContactWithMap = () => {
           <iframe className="" src={appData.mapIframe}></iframe>
         </div>
         <div className="col-lg-6 form">
-        <h5>Please fill out the form below to get in touch with us. </h5>
-        <p>We will respond to your inquiry as soon as possible.</p>
+        <h5 style={{textTransform:"capitalize"}} className="capitalize" >Please fill out the form below to get in touch with us. </h5>
+        <p style={{textTransform:"capitalize"}}>We will respond to your inquiry as soon as possible.</p>
           <form id="contact-form" method="post">
             <div className="messages"></div>
 

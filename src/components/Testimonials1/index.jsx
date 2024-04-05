@@ -8,6 +8,7 @@ import testimonials1Data from "../../data/testimonials1.json";
 class Testimonials1 extends React.Component {
   constructor(props) {
     super(props);
+  
   }
   renderArrows = () => {
     return (
@@ -23,7 +24,9 @@ class Testimonials1 extends React.Component {
       )
     );
   };
-  render() {
+  render(
+   
+  ) {
     return (
       <>
         <section
@@ -90,24 +93,22 @@ class Testimonials1 extends React.Component {
                     ],
                   }}
                 >
-                  {testimonials1Data.map((item) => (
+                  {this.props.testimonial?.map((item) => (
                     <div
                       className="item wow fadeInUp"
                       data-wow-delay=".3s"
-                      key={item.id}
+                      key={item._id}
                     >
                       <span className="quote-icon">
                         <img src="/assets/img/clients/quote.svg" alt="" />
                       </span>
                       <div className="cont">
-                        <p className="">&quot;{item.content}&quot;</p>
+                        <p className="">&quot;{item?.description}&quot;</p>
                       </div>
                       <div className="info">
-                        <div className="author">
-                          <img src={item.image} alt="" />
-                        </div>
+                        
                         <h6>
-                          {item.username} <span>{item.usertitle}</span>
+                          {item?.name} 
                         </h6>
                       </div>
                     </div>

@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Footer = ({ classText }) => {
+const Footer = ({ classText,blogs }) => {
   return (
     <footer className={`${classText ? classText : ""}`}>
       <div className="container">
@@ -31,7 +31,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91 819555466</p>
+                    <p>+91 9819555466</p>
                   </div>
                 </li>
               </ul>

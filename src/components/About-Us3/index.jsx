@@ -70,7 +70,7 @@ const AboutUs3 = () => {
               cx="43"
               cy="43"
               r="39"
-              stroke="#000080"
+              stroke="#ffe600"
               strokeWidth=".5"
             ></circle>
           </svg>

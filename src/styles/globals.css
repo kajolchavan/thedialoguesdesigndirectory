@@ -289,6 +289,13 @@ a.col-lg-4.col-xl-3.col-md-12 {
   border-radius: 10px;
   
 }
+.youtubeItem:hover{
+  background-color: #f1ecbe;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  padding: 15px 15px;
+  border-radius: 10px;
+  
+}
 .youtubeImage > img{
   border-radius: 5px;
 }
