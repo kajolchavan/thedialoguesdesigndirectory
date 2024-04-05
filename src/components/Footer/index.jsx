@@ -94,16 +94,7 @@ const Footer = ({ classText,blogs }) => {
             <div className="item">
             
               <div className="social">
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </Link>
+               
                 <Link href="#">
                   <a>
                     <i className="fab fa-instagram"></i>
