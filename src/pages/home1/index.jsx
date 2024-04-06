@@ -29,7 +29,7 @@ const Home1 = ({homeContent,portfolios,blogs}) => {
       {/* <SkillsCircle /> */}
       {/* <Testimonials /> */}
       {/* <Team1 /> */}
-      <Blogs1 blogs={blogs} />
+     {blogs?.length !==0 && <Blogs1 blogs={blogs} />}
       <Contact />
     </LightLayout>
   );

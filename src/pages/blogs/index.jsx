@@ -10,15 +10,18 @@ const Blogs = ({blogs}) => {
   }, [])
     return (
       <LightLayout>
-        <PageHeader
+        {/* <PageHeader
           title="Our Blogs"
           fullPath={[
             { id: 1, name: "home", url: "/" },
             { id: 2, name: "blogs", url: "/blogs" },
           ]}
           image="https://images.pexels.com/photos/1438834/pexels-photo-1438834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        />
-        <BlogsList blogs={blogs}  />
+        /> */}
+       {blogs?.length !== 0 ?  <BlogsList blogs={blogs}  /> : 
+       (<div className='container' >
+          <h3 className='bannerPadding text-center' >No Blogs Yet</h3>
+       </div>)}
       </LightLayout>
     );
 }

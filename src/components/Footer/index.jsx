@@ -16,8 +16,8 @@ const Footer = ({ classText}) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Official Address</h6>
-                    <p>20, famous studio lane, mahalxmi mumbai</p>
+                    <h6>Office Address</h6>
+                    <p style={{textTransform:"capitalize"}} >20, famous studio lane, mahalxmi mumbai</p>
                   </div>
                 </li>
                 <li>
@@ -43,20 +43,20 @@ const Footer = ({ classText}) => {
             
               <div className="social">
                
-                <Link href="#">
-                  <a>
+               
+                  <a href="https://bit.ly/tddd_instagram" target="_blank" rel="noreferrer" >
                     <i className="fab fa-instagram"></i>
                   </a>
-                </Link>
-                <Link href="#">
-                  <a>
+               
+                
+                  <a href="https://bit.ly/tddd_youtube" target="_blank" rel="noreferrer" >
                     <i className="fab fa-youtube"></i>
                   </a>
-                </Link>
+                
               </div>
               <div className="copy-right">
                 <p>
-                  © 2024, The Dialogues Design Directory.
+                  © 2024, The Dialogues Design Directory. Made By One Impact
                 </p>
               </div>
             </div>
