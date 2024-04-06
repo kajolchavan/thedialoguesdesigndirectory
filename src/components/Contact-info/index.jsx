@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactInfo = () => {
+const ContactInfo = ({contactDetails}) => {
   return (
     <div className="info pt-80 pb-80">
       <div className="container">
@@ -10,7 +10,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
                 <h6 className="custom-font mediumSubTitle">Call Us</h6>
-                <p className="mediumSubTitle">+91 9819555466</p>
+                <p className="mediumSubTitle">{contactDetails?.contactNo}</p>
              
               </div>
             </div>
@@ -21,7 +21,7 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font mediumSubTitle">Email Us</h6>
                 
-                <p className="mediumSubTitle" >thedialoguesdesigndirectory@gmail.com</p>
+                <p className="mediumSubTitle" >{contactDetails?.email}</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font mediumSubTitle">Address</h6>
                 <p className="mediumSubTitle">
-                20, famous studio lane, mahalxmi mumbai
+                {contactDetails?.address}
                 </p>
               </div>
             </div>

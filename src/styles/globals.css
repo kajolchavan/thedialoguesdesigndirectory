@@ -349,7 +349,24 @@ a.col-lg-4.col-xl-3.col-md-12 {
   width: 50px !important;
   padding: 0;
 }
+.headerPc{
+  display: block;
+
+}
+.headerMobile{
+  display: none;
+}
+.paddingBanner{
+  padding-top:200px
+}
 @media (max-width: 991px) {
+  .headerMobile{
+    display: block;
+  
+  }
+  .headerPc{
+    display: none;
+  }
   .videoMobile{
     display:block;
   }

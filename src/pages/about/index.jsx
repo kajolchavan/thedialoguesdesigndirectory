@@ -26,6 +26,7 @@ const About = ({testimonial,aboutDetails}) => {
           { id: 2, name: "about us", url: "/about" },
         ]}
         image={aboutDetails[0]?.mainBanner}
+        imageMobile={aboutDetails[0]?.mainBannerMobile}
       />
       <AboutUs2 aboutDetails={aboutDetails[0]} />
       {/* <Services3 bigTitle grid /> */}
