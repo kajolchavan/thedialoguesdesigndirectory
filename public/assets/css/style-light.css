@@ -717,7 +717,7 @@ a:hover, span:hover {
   transition-delay: 1s;
 }
 .loading-text {
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 10px;
   position: absolute;
@@ -727,7 +727,7 @@ a:hover, span:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #ffe600;
-  font-family: MontserratBold;
+  font-family: MontserratMedium;
   z-index: 9999;
 }
 .loading-text.isdone {
