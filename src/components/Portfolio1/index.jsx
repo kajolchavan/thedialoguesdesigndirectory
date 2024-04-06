@@ -36,7 +36,7 @@ const Portfolio1 = ({portfolios}) => {
       {portfolios?.map((item,key)=>(
         
         <div key={key} className="col-lg-4 wow fadeInUp col-md-4 portfolioItem  my-4 items theaters">
-        <a   href={item?.videoLink}>
+        <a target="_blank" rel="noreferrer"  href={item?.videoLink}>
               <div className="item youtubeItem">
                 <div className="img youtubeImage">
               <img src={urlFor(item?.videoThumbnail)} />
