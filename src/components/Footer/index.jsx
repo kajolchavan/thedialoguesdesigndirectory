@@ -17,7 +17,7 @@ const Footer = ({ classText}) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Office Address</h6>
-                    <p style={{textTransform:"capitalize"}} >20, famous studio lane, mahalxmi mumbai</p>
+                    <p style={{textTransform:"capitalize"}} >20, famous studio lane, mahalaxmi mumbai</p>
                   </div>
                 </li>
                 <li>
