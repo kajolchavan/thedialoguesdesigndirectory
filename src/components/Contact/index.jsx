@@ -84,7 +84,7 @@ const Contact = () => {
                  
                   required="required"
                 >
-                <option value="" defaultChecked >If Yes, Which Year?</option>
+                <option value="" defaultChecked >If yes, which year?</option>
                 <option>1st Year</option>
                 <option>2nd Year</option>
                 <option>3rd Year</option>
