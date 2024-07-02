@@ -23,7 +23,7 @@ class MyDocument extends Document {
             content="Twenty-five years ago, only 40 architecture colleges stood across the nation, with a mere trio nestled in the bustling heart of Mumbai."
           />
           <meta name="author" content="" />
-
+         
           <link rel="shortcut icon" href="/assets/img/logo-dark.png" />
 
           <link

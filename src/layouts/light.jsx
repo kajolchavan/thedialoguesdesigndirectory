@@ -31,6 +31,8 @@ const LightLayout = ({ children, footerClass }) => {
     <>
       <Head>
         <link rel="stylesheet" href="/assets/css/style-light.css" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8783214606526397"
+     crossorigin="anonymous"></script>
       </Head>
       <Navbar navbarRef={navbarRef} logoRef={logoRef} />
       {children}
